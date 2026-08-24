@@ -130,7 +130,7 @@ Prochaines étapes envisagées :
 
 ├── notebooks/notebook.ipynb              \# Notebook complet (Google Colab)
 
-├── rapport-projet-momentum.docx  \# Rapport détaillé (méthodologie, résultats, annexe de code)
+├── docs/rapport-final-projet-momentum.docx  \# Rapport détaillé (méthodologie, résultats, annexe de code)
 
 ├── docs/presentation-projet-momentum.pptx  \# Diaporama de synthèse
 
