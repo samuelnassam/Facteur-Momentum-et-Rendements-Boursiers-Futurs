@@ -58,7 +58,7 @@ Un test t entre tertiles extrêmes donne une p-value ≈ 3×10⁻¹⁶, mais cet
 
 L'analyse a été reproduite sur un panier élargi de **20 actions** afin de tester la robustesse du signal.
 
-![Rendement futur moyen par quintile de momentum, panier de 20 actions]()
+![Rendement futur moyen par quintile de momentum, panier de 20 actions](assets/quintiles_chart.png)
 
 | Quintile de momentum | Rendement futur moyen à 6 mois |
 | :---- | :---- |
@@ -128,11 +128,11 @@ Prochaines étapes envisagées :
 
 ├── README.md
 
-├── notebook.ipynb              \# Notebook complet (Google Colab)
+├── notebooks/notebook.ipynb              \# Notebook complet (Google Colab)
 
 ├── rapport-projet-momentum.docx  \# Rapport détaillé (méthodologie, résultats, annexe de code)
 
-├── presentation-projet-momentum.pptx  \# Diaporama de synthèse
+├── docs/presentation-projet-momentum.pptx  \# Diaporama de synthèse
 
 ├── assets/
 
@@ -142,7 +142,7 @@ Prochaines étapes envisagées :
 
 ## Reproduire l'analyse
 
-pip install pandas numpy yfinance scikit-learn scipy
+pip install -r requirements.txt
 
 Le notebook peut être exécuté directement dans [Google Colab](https://colab.research.google.com/) sans installation locale. Les données sont téléchargées automatiquement via `yfinance` au début du notebook  aucun fichier de données n'a besoin d'être fourni séparément.
 
